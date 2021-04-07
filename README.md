@@ -35,7 +35,7 @@ npm install
 4. Build the packages.
 
 ```
-npm build run
+npm run build
 ```
     
 5. Start the app.
