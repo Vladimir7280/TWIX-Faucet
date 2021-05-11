@@ -109,10 +109,10 @@ export default {
             this.form.selectedMosaics = this.mosaicSelectManager.map((mosaic) => mosaic.mosaicId);
             this.form.amount = Number(this.form.amount | 0);
 
-            if (this.form.recipient.length !== 39) {
-                this.$parent.makeToast('warning', `Address format incorrect.`);
+        if (this.form.recipient.length === 39 && (this.form.recipient.charAt(0) === 'T' || this.form.recipient.charAt(0) === 'N')) {
+          this.$store.dispatch('claimFaucet', { ...this.form });
             } else {
-                this.$store.dispatch('claimFaucet', { ...this.form });
+          this.$parent.makeToast('warning', `Address format incorrect.`);
             }
         },
         add_mosaic() {
