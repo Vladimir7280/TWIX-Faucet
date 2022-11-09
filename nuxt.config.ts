@@ -6,7 +6,6 @@ const recaptchaPlugin =
     : []
 
 export const config: any = {
-  mode: 'universal',
   telemetry: false,
 
   server: {
