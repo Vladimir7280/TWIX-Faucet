@@ -9,7 +9,7 @@ import {
     MosaicId,
     TransactionType,
     TransactionGroup,
-} from 'symbol-sdk';
+} from 'symbol-sdk-twix';
 import { of, forkJoin } from 'rxjs';
 import { map, mergeMap, filter, toArray, catchError } from 'rxjs/operators';
 import { IApp } from '../app';

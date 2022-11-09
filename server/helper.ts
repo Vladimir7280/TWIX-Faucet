@@ -1,4 +1,4 @@
-import { MosaicInfo, MosaicNames } from 'symbol-sdk';
+import { MosaicInfo, MosaicNames } from 'symbol-sdk-twix';
 
 export default class Helper {
     static stringToArray(str: string | undefined): string[] {

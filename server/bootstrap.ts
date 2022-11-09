@@ -2,7 +2,7 @@ import {
     Account,
     RepositoryFactoryHttp,
     RepositoryFactory
-  } from 'symbol-sdk'
+  } from 'symbol-sdk-twix'
 
   import { env } from "./libs"
 

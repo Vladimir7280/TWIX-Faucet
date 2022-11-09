@@ -1,4 +1,4 @@
-import { Account, RepositoryFactoryHttp, RepositoryFactory, NetworkType, CurrencyService } from 'symbol-sdk';
+import { Account, RepositoryFactoryHttp, RepositoryFactory, NetworkType, CurrencyService } from 'symbol-sdk-twix';
 import { timeout } from 'rxjs/operators';
 import { IConfig, Config } from './config';
 

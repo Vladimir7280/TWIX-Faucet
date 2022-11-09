@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Listener, Address, RepositoryFactoryHttp } from 'symbol-sdk';
+import { Listener, Address, RepositoryFactoryHttp } from 'symbol-sdk-twix';
 
 export const state = () => ({
     filterMosaics: [],
