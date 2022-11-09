@@ -50,7 +50,7 @@ export default {
             return this.networkInfo.explorerUrl;
         },
         defaultNode() {
-            return this.networkInfo.defaultNode;
+            return this.networkInfo.defaultNode + "/node/info";
         },
     },
 };
