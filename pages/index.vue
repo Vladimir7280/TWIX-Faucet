@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import { Address } from 'symbol-sdk-twix';
+import { Address } from 'twix-sdk';
 import FaucetForm from '@/components/FaucetForm.vue';
 
 export default {

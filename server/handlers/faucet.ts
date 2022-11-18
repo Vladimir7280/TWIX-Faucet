@@ -1,5 +1,5 @@
 import { ServerMiddleware } from '@nuxt/types';
-import { MosaicId, NamespaceId, UnresolvedMosaicId, MosaicInfo } from 'symbol-sdk-twix';
+import { MosaicId, NamespaceId, UnresolvedMosaicId, MosaicInfo } from 'twix-sdk';
 import Url from 'url-parse';
 import { IApp } from '../app';
 import helper from '../helper';
