@@ -78,7 +78,7 @@ export const actions = {
                 window.$nuxt.$makeToast('success', `Your request has been processed.`);
                 window.$nuxt.$makeToast('success', `View transaction in explorer.`, {
                     noAutoHide: true,
-                    href: `${networkInfo.explorerUrl}transactions/${response.transactionInfo.hash}`,
+                    href: `${networkInfo.explorerUrl}/transactions/${response.transactionInfo.hash}`,
                 });
 
                 listener.close();
